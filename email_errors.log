@@ -1,0 +1,1386 @@
+[2025-09-24 15:29:16.017370] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:16.603552] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:17.192565] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:18.238441] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:19.286495] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:19.909030] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:20.487155] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:21.069533] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:21.660663] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:22.251196] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:22.824993] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:23.401581] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:23.979354] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:24.557484] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:25.133976] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:25.778143] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:26.381101] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:26.959817] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:29:27.585394] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 291, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 15:41:41.555994] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 290, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:12.571501] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:13.146178] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:13.721552] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:14.310939] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:14.902128] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:15.489221] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:16.095808] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:16.690093] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:17.298180] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:17.882657] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:18.478844] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:19.080786] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:19.671228] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:20.255131] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:20.843038] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:21.409672] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:22.004894] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:22.587305] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:23.165918] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:23.741600] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:24.324387] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 17:57:24.895560] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:14.963367] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:15.557560] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:16.133354] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:16.752025] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:17.324441] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:17.909642] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:18.484812] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:19.087126] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:19.694260] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:20.290316] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:20.887250] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:21.482619] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:22.075566] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:22.685273] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:23.273014] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:23.856167] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:24.440525] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:25.067562] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:00:26.111208] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:22.801684] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:23.385092] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:24.388801] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:24.391712] General error sending arrival email for mariam (shaikmariam2005@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:25.051832] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:25.675861] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:26.271038] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:26.849628] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:27.452275] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:28.041708] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:28.651647] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:29.253492] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:29.835429] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:30.432593] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:31.013439] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:31.668215] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:32.247552] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:32.844536] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:33.438500] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:09:34.029242] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:49.790029] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:50.372596] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:50.985108] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:51.563798] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:52.146522] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:52.713695] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:53.341500] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:53.936229] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:54.516037] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:55.113217] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:55.700871] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:56.304181] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:56.899981] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:57.486544] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:58.066646] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:58.657216] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:59.261052] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:10:59.845729] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:11:00.467561] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:11:01.035148] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:11:01.614581] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:11:02.190192] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:11:02.765343] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:50.672233] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:51.248522] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:51.819165] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:52.390035] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:52.962777] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:53.534680] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:54.115459] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:54.690468] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:55.297088] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:55.872414] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:56.889697] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:56.892657] General error sending arrival email for mariam (shaikmariam2005@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:57.488256] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:58.083956] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:58.679677] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:59.300646] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:12:59.876544] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:00.473985] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:01.073901] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:01.649170] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:02.235869] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:02.870840] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:03.486058] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:04.125179] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:04.691493] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:05.266180] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:05.873561] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:13:06.467480] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:05.017767] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:05.608789] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:06.183713] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:06.798994] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:07.377286] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:07.951154] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:08.525593] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:09.105913] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:09.707749] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:10.279106] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:10.877056] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:11.474175] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:12.051879] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:13.073470] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:13.682080] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:14.283958] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:14.860605] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:15.861122] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:16.861925] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:17.903204] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:18.930213] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:19.932455] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:20.508206] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:21.083300] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:14:22.084825] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:25.243090] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:25.819984] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:26.403115] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:27.013412] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:27.613781] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:28.204627] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:28.799463] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:29.392778] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:29.986792] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:30.581634] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:31.200476] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:31.791527] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:32.376895] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:32.954559] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:33.569888] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:34.158250] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:34.757956] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:35.340749] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:36.007286] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:15:36.631219] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:20.361886] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:20.957312] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:21.544359] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:22.195834] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:22.801451] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:23.406823] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:23.996486] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:24.625688] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:25.239144] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:25.830602] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:26.443977] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:27.051787] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:27.646060] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:28.256680] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:28.863021] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:29.470805] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:30.058743] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:30.642736] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:31.241742] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:31.859280] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+
+[2025-09-24 18:19:32.486230] General error sending arrival email for adhi (nusumadithya83@gmail.com): cannot access local variable 'standard_val' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\nusum\Downloads\face-attendence\app.py", line 372, in gen_attendance_frames
+    message_body = f"Your ward '{display_name}' of standard '{standard_val}' is present at school at {timestamp}."
+                                                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'standard_val' where it is not associated with a value
+

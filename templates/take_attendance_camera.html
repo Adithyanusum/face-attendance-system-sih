@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Take Attendance (Camera)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            background-image: url('{{ url_for('static', filename='govt.jpg') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container { max-width: 400px; background: #fff; border-radius: 18px; box-shadow: 0 8px 32px rgba(37,99,235,0.13); padding: 2rem 1.2rem; margin-top: 2rem; }
+        #video, #canvas { width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(37,99,235,0.10); }
+        #capture-btn, #submit-btn, #recapture-btn { margin: 10px 0; width: 100%; font-size: 1.1rem; border-radius: 8px; }
+        #result { margin-top: 1.2rem; min-height: 2.5em; }
+        #spinner { display: none; }
+        @media (max-width: 600px) { .container { padding: 1rem 0.3rem; } }
+    </style>
+</head>
+<body>
+    <div style="position:absolute;top:1.2rem;left:1.2rem;z-index:30;background:#fff;box-shadow:0 2px 8px rgba(37,99,235,0.14);border-radius:0px;padding:8px 12px;display:flex;align-items:center;justify-content:center;border:2px solid #2563eb;">
+        <img src="{{ url_for('static', filename='govtt.png') }}" alt="Logo" style="display:block;max-width:180px;max-height:120px;object-fit:contain;" />
+    </div>
+    <div class="container">
+        <h2 class="mb-3 text-primary" style="font-weight:700;">Take Attendance (Camera)</h2>
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div class="d-flex justify-content-center align-items-center mt-2 mb-2">
+            <div id="spinner" class="spinner-border text-primary" role="status" style="display:none;"></div>
+        </div>
+        <button id="capture-btn" class="btn btn-primary">Capture</button>
+        <button id="submit-btn" class="btn btn-success" style="display:none;">Submit Attendance</button>
+        <button id="recapture-btn" class="btn btn-secondary" style="display:none;">Recapture</button>
+        <div id="result" class="text-center"></div>
+    </div>
+    <script>
+        const video = document.getElementById('video');
+        const canvas = document.getElementById('canvas');
+        const captureBtn = document.getElementById('capture-btn');
+        const submitBtn = document.getElementById('submit-btn');
+        const recaptureBtn = document.getElementById('recapture-btn');
+        const resultDiv = document.getElementById('result');
+        const spinner = document.getElementById('spinner');
+        let imageData = null;
+        let stream = null;
+
+        // Request camera access
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(s => {
+                stream = s;
+                video.srcObject = stream;
+            })
+            .catch(err => {
+                resultDiv.innerHTML = '<span class="text-danger">Camera access denied or not available.</span>';
+                captureBtn.disabled = true;
+            });
+
+        captureBtn.onclick = function() {
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            canvas.getContext('2d').drawImage(video, 0, 0);
+            imageData = canvas.toDataURL('image/jpeg');
+            canvas.style.display = 'block';
+            video.style.display = 'none';
+            submitBtn.style.display = 'inline-block';
+            recaptureBtn.style.display = 'inline-block';
+            captureBtn.style.display = 'none';
+            resultDiv.innerHTML = '<span class="text-info">Image captured. Click Submit Attendance.</span>';
+        };
+
+        recaptureBtn.onclick = function() {
+            canvas.style.display = 'none';
+            video.style.display = 'block';
+            submitBtn.style.display = 'none';
+            recaptureBtn.style.display = 'none';
+            captureBtn.style.display = 'inline-block';
+            resultDiv.innerHTML = '';
+        };
+
+        submitBtn.onclick = function() {
+            if (!imageData) return;
+            resultDiv.innerHTML = '';
+            spinner.style.display = 'inline-block';
+            fetch('/api/mark_attendance', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ image: imageData })
+            })
+            .then(res => res.json())
+            .then(data => {
+                spinner.style.display = 'none';
+                if (data.success) {
+                    resultDiv.innerHTML = `<div class='alert alert-success'><b>Attendance marked for:</b> ${data.name || data.roll || 'Unknown'}<br>Time: ${data.time}</div>`;
+                } else {
+                    resultDiv.innerHTML = `<div class='alert alert-danger'><b>Attendance failed:</b> ${data.error}</div>`;
+                }
+            })
+            .catch(() => {
+                spinner.style.display = 'none';
+                resultDiv.innerHTML = '<div class="alert alert-danger">Error sending image to server.</div>';
+            });
+        };
+    </script>
+</body>
+</html>
