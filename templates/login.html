@@ -62,11 +62,11 @@
     <form method="POST" action="/login">
       <div class="mb-3">
         <label class="form-label">Username</label>
-        <input type="text" class="form-control" name="username" required autofocus>
+        <input type="text" class="form-control" name="username" required autofocus placeholder="TEACHER">
       </div>
       <div class="mb-3">
         <label class="form-label">Password</label>
-        <input type="password" class="form-control" name="password" required>
+        <input type="password" class="form-control" name="password" required placeholder="123456">
       </div>
       {% if error %}
       <p class="text-danger" style="font-weight:600;">{{ error }}</p>
