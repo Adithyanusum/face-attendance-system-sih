@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% block title %}Mark Attendance – Face Attendance System{% endblock %}
+
+{% block content %}
+<h2 class="mb-3"><i class="bi bi-camera me-2"></i>Mark Attendance via Face Recognition</h2>
+
+<div class="row g-3">
+  <!-- Controls -->
+  <div class="col-md-4">
+    <div class="card shadow-sm">
+      <div class="card-header fw-semibold">Settings</div>
+      <div class="card-body">
+        <div class="mb-3">
+          <label class="form-label">Class <span class="text-danger">*</span></label>
+          <select id="classSelect" class="form-select">
+            <option value="">— Select Class —</option>
+            {% for cls in classes %}
+            <option value="{{ cls.id }}">{{ cls.name }} – {{ cls.subject }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" id="startBtn" onclick="startCamera()">
+            <i class="bi bi-camera me-1"></i>Start Camera
+          </button>
+          <button class="btn btn-success" id="scanBtn" onclick="startScanning()" disabled>
+            <i class="bi bi-play-circle me-1"></i>Start Scanning
+          </button>
+          <button class="btn btn-danger" id="stopBtn" onclick="stopScanning()" disabled>
+            <i class="bi bi-stop-circle me-1"></i>Stop
+          </button>
+        </div>
+        <div class="mt-3">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="continuousMode" checked>
+            <label class="form-check-label" for="continuousMode">Continuous scan</label>
+          </div>
+          <small class="text-muted">Scan interval: every 2 seconds</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Status -->
+    <div class="card shadow-sm mt-3" id="statusCard" style="display:none!important">
+      <div class="card-header fw-semibold">Last Result</div>
+      <div class="card-body" id="statusBody"></div>
+    </div>
+  </div>
+
+  <!-- Camera feed -->
+  <div class="col-md-8">
+    <div class="card shadow-sm">
+      <div class="card-header fw-semibold">Camera Feed</div>
+      <div class="card-body text-center">
+        <video id="attVideo" width="100%" style="max-width:640px;height:auto;"
+               class="border rounded bg-dark" autoplay muted playsinline></video>
+        <canvas id="attCanvas" class="d-none"></canvas>
+        <p class="text-muted small mt-2" id="cameraHint">Select a class and click Start Camera.</p>
+      </div>
+    </div>
+
+    <!-- Today's attendance log -->
+    <div class="card shadow-sm mt-3">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-list-check me-1"></i>Marked Today
+      </div>
+      <div class="card-body p-0">
+        <div id="markedList" class="list-group list-group-flush"></div>
+        <p class="text-muted p-3 mb-0 small" id="markedEmpty">No attendance marked yet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let attStream = null;
+let scanInterval = null;
+const marked = new Set();  // track who's been marked this session
+
+function startCamera() {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(stream => {
+      attStream = stream;
+      const video = document.getElementById('attVideo');
+      video.srcObject = stream;
+      document.getElementById('scanBtn').disabled = false;
+      document.getElementById('startBtn').disabled = true;
+      document.getElementById('cameraHint').textContent = 'Camera running. Select a class and start scanning.';
+    })
+    .catch(err => alert('Camera access denied: ' + err.message));
+}
+
+function startScanning() {
+  const classId = document.getElementById('classSelect').value;
+  if (!classId) {
+    alert('Please select a class first.');
+    return;
+  }
+  document.getElementById('scanBtn').disabled = true;
+  document.getElementById('stopBtn').disabled = false;
+  document.getElementById('cameraHint').textContent = 'Scanning… face the camera.';
+  scan(classId);  // immediate first scan
+  if (document.getElementById('continuousMode').checked) {
+    scanInterval = setInterval(() => scan(classId), 2000);
+  }
+}
+
+function stopScanning() {
+  clearInterval(scanInterval);
+  scanInterval = null;
+  if (attStream) {
+    attStream.getTracks().forEach(t => t.stop());
+    attStream = null;
+  }
+  document.getElementById('startBtn').disabled = false;
+  document.getElementById('scanBtn').disabled = true;
+  document.getElementById('stopBtn').disabled = true;
+  document.getElementById('cameraHint').textContent = 'Scanning stopped.';
+}
+
+function scan(classId) {
+  const video = document.getElementById('attVideo');
+  const canvas = document.getElementById('attCanvas');
+  canvas.width = video.videoWidth || 640;
+  canvas.height = video.videoHeight || 480;
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  const dataUrl = canvas.toDataURL('image/jpeg', 0.8);
+
+  fetch('{{ url_for("mark_attendance") }}', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ frame: dataUrl, class_id: classId, marked_by: 'face' })
+  })
+  .then(r => r.json())
+  .then(data => {
+    showStatus(data);
+    if (data.success && data.student) {
+      addToMarkedList(data.student);
+    }
+  })
+  .catch(err => console.error('Scan error:', err));
+}
+
+function showStatus(data) {
+  const card = document.getElementById('statusCard');
+  const body = document.getElementById('statusBody');
+  card.style.removeProperty('display');
+  if (data.success) {
+    body.innerHTML = `<div class="alert alert-success mb-0">
+      <i class="bi bi-check-circle me-1"></i><strong>${data.student.name}</strong>
+      (${data.student.student_id}) marked present.</div>`;
+  } else {
+    body.innerHTML = `<div class="alert alert-warning mb-0">
+      <i class="bi bi-exclamation-triangle me-1"></i>${data.message}</div>`;
+  }
+}
+
+function addToMarkedList(student) {
+  if (marked.has(student.student_id)) return;
+  marked.add(student.student_id);
+  document.getElementById('markedEmpty').style.display = 'none';
+  const el = document.createElement('div');
+  el.className = 'list-group-item d-flex justify-content-between align-items-center';
+  const now = new Date().toLocaleTimeString();
+  el.innerHTML = `<span><i class="bi bi-person-check text-success me-2"></i>
+    <strong>${student.name}</strong> (${student.student_id})</span>
+    <span class="text-muted small">${now}</span>`;
+  document.getElementById('markedList').prepend(el);
+}
+</script>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Classes – Face Attendance System{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2><i class="bi bi-building me-2"></i>Classes</h2>
+  <a href="{{ url_for('add_class') }}" class="btn btn-primary">
+    <i class="bi bi-plus-circle me-1"></i>Add Class
+  </a>
+</div>
+
+{% if classes %}
+<div class="table-responsive">
+  <table class="table table-hover shadow-sm">
+    <thead class="table-dark">
+      <tr>
+        <th>#</th><th>Class Name</th><th>Subject</th>
+        <th>Teacher</th><th>Teacher Email</th><th>Students</th><th>Created</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for cls in classes %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td class="fw-semibold">{{ cls.name }}</td>
+        <td>{{ cls.subject }}</td>
+        <td>{{ cls.teacher_name or '—' }}</td>
+        <td>{{ cls.teacher_email or '—' }}</td>
+        <td><span class="badge bg-primary">{{ cls.student_count }}</span></td>
+        <td class="text-muted small">{{ cls.created_at }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+<div class="alert alert-info">No classes yet. <a href="{{ url_for('add_class') }}">Add one</a>.</div>
+{% endif %}
+{% endblock %}

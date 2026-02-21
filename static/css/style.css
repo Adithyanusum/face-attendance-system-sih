@@ -1,0 +1,34 @@
+/* Face Attendance System – custom styles */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+/* Stat cards */
+.card .fs-2 {
+  line-height: 1.1;
+}
+
+/* Camera feed */
+#regVideo, #attVideo {
+  background: #111;
+  border-radius: 6px;
+}
+
+/* Table striping consistent with Bootstrap */
+.table > :not(caption) > * > * {
+  vertical-align: middle;
+}
+
+/* Attendance list */
+#markedList .list-group-item {
+  border-left: 4px solid #198754;
+}
+
+footer {
+  font-size: 0.8rem;
+}

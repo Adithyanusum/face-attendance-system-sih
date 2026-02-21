@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block title %}Manual Attendance – Face Attendance System{% endblock %}
+
+{% block content %}
+<h2 class="mb-3"><i class="bi bi-pencil-square me-2"></i>Manual Attendance</h2>
+
+<div class="card shadow-sm">
+  <div class="card-body">
+    <form method="POST" id="manualForm">
+      <div class="row g-3 mb-3">
+        <div class="col-md-4">
+          <label class="form-label">Class <span class="text-danger">*</span></label>
+          <select name="class_id" id="classFilter" class="form-select" required
+                  onchange="filterStudents(this.value)">
+            <option value="">— Select Class —</option>
+            {% for cls in classes %}
+            <option value="{{ cls.id }}">{{ cls.name }} – {{ cls.subject }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label class="form-label">Date</label>
+          <input type="date" name="att_date" class="form-control"
+                 value="{{ today.isoformat() if today else '' }}"
+                 id="attDateInput">
+        </div>
+      </div>
+
+      <div id="studentList" class="mb-3">
+        <p class="text-muted">Select a class to load students.</p>
+      </div>
+
+      <button type="submit" class="btn btn-success" id="submitBtn" disabled>
+        <i class="bi bi-save me-1"></i>Save Attendance
+      </button>
+      <a href="{{ url_for('attendance_records') }}" class="btn btn-secondary ms-2">
+        View Records
+      </a>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const allStudents = {{ students | tojson }};
+
+function filterStudents(classId) {
+  const container = document.getElementById('studentList');
+  const submitBtn = document.getElementById('submitBtn');
+  if (!classId) {
+    container.innerHTML = '<p class="text-muted">Select a class to load students.</p>';
+    submitBtn.disabled = true;
+    return;
+  }
+  const filtered = allStudents.filter(s => String(s.class_id) === String(classId));
+  if (!filtered.length) {
+    container.innerHTML = '<div class="alert alert-warning">No students in this class.</div>';
+    submitBtn.disabled = true;
+    return;
+  }
+
+  let html = `<div class="d-flex gap-2 mb-2">
+    <button type="button" class="btn btn-sm btn-outline-success" onclick="selectAll(true)">Select All</button>
+    <button type="button" class="btn btn-sm btn-outline-danger" onclick="selectAll(false)">Deselect All</button>
+    <span class="badge bg-primary align-self-center">${filtered.length} student(s)</span>
+  </div>
+  <div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead class="table-light">
+      <tr><th>Present</th><th>Student ID</th><th>Name</th></tr>
+    </thead><tbody>`;
+  filtered.forEach(s => {
+    html += `<tr>
+      <td class="text-center">
+        <input class="form-check-input student-cb" type="checkbox"
+               name="present_ids" value="${s.id}" checked>
+      </td>
+      <td>${s.student_id}</td>
+      <td>${s.name}</td>
+    </tr>`;
+  });
+  html += '</tbody></table></div>';
+  container.innerHTML = html;
+  submitBtn.disabled = false;
+}
+
+function selectAll(state) {
+  document.querySelectorAll('.student-cb').forEach(cb => cb.checked = state);
+}
+</script>
+{% endblock %}

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}Reports – Face Attendance System{% endblock %}
+
+{% block content %}
+<h2 class="mb-3"><i class="bi bi-envelope me-2"></i>Reports &amp; Email Notifications</h2>
+
+<div class="row g-3">
+  <!-- Daily report -->
+  <div class="col-md-6">
+    <div class="card shadow-sm">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-calendar-check me-1"></i>Daily Attendance Report
+      </div>
+      <div class="card-body">
+        <p class="text-muted small">
+          Sends a full attendance summary for the selected class and date
+          to the class teacher's email address.
+        </p>
+        <form method="POST" action="{{ url_for('send_daily_report_route') }}">
+          <div class="mb-3">
+            <label class="form-label">Class</label>
+            <select name="class_id" class="form-select" required>
+              <option value="">— Select Class —</option>
+              {% for cls in classes %}
+              <option value="{{ cls.id }}">
+                {{ cls.name }} – {{ cls.subject }}
+                {% if cls.teacher_email %}({{ cls.teacher_email }}){% endif %}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Date</label>
+            <input type="date" name="report_date" class="form-control"
+                   value="{{ today.isoformat() if today else '' }}" id="reportDate">
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="bi bi-send me-1"></i>Send Report Email
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Low attendance alerts -->
+  <div class="col-md-6">
+    <div class="card shadow-sm">
+      <div class="card-header fw-semibold">
+        <i class="bi bi-exclamation-triangle me-1"></i>Low Attendance Alerts (&lt;75%)
+      </div>
+      <div class="card-body">
+        <p class="text-muted small">
+          Sends individual alert emails to students whose attendance falls below 75%.
+        </p>
+        <form method="POST" action="{{ url_for('send_low_attendance_route') }}">
+          <div class="mb-3">
+            <label class="form-label">Class</label>
+            <select name="class_id" class="form-select" required>
+              <option value="">— Select Class —</option>
+              {% for cls in classes %}
+              <option value="{{ cls.id }}">{{ cls.name }} – {{ cls.subject }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <button type="submit" class="btn btn-warning">
+            <i class="bi bi-bell me-1"></i>Send Alerts
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Email log -->
+<div class="card shadow-sm mt-4">
+  <div class="card-header fw-semibold">
+    <i class="bi bi-clock-history me-1"></i>Recent Email Log
+  </div>
+  <div class="card-body p-0">
+    {% if email_logs %}
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>Recipient</th><th>Subject</th>
+            <th>Status</th><th>Sent At</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for log in email_logs %}
+          <tr>
+            <td class="small">{{ log.recipient }}</td>
+            <td class="small">{{ log.subject }}</td>
+            <td>
+              <span class="badge bg-{{ 'success' if log.status == 'sent' else 'danger' }}">
+                {{ log.status | capitalize }}
+              </span>
+            </td>
+            <td class="text-muted small">{{ log.sent_at }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <p class="text-muted p-3 mb-0">No emails sent yet.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

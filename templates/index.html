@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Dashboard – Face Attendance System{% endblock %}
+
+{% block content %}
+<h2 class="mb-4"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h2>
+
+<!-- Stats cards -->
+<div class="row g-3 mb-4">
+  <div class="col-sm-4">
+    <div class="card text-white bg-primary h-100">
+      <div class="card-body d-flex align-items-center gap-3">
+        <i class="bi bi-people-fill fs-1"></i>
+        <div>
+          <div class="fs-2 fw-bold">{{ total_students }}</div>
+          <div>Total Students</div>
+        </div>
+      </div>
+      <div class="card-footer text-white-50 small">
+        <a href="{{ url_for('students') }}" class="text-white">View all →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card text-white bg-success h-100">
+      <div class="card-body d-flex align-items-center gap-3">
+        <i class="bi bi-building fs-1"></i>
+        <div>
+          <div class="fs-2 fw-bold">{{ total_classes }}</div>
+          <div>Classes</div>
+        </div>
+      </div>
+      <div class="card-footer text-white-50 small">
+        <a href="{{ url_for('classes') }}" class="text-white">View all →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card text-white bg-info h-100">
+      <div class="card-body d-flex align-items-center gap-3">
+        <i class="bi bi-check2-circle fs-1"></i>
+        <div>
+          <div class="fs-2 fw-bold">{{ today_attendance }}</div>
+          <div>Present Today</div>
+        </div>
+      </div>
+      <div class="card-footer text-white-50 small">
+        <a href="{{ url_for('attendance_records') }}" class="text-white">View records →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Quick actions -->
+<div class="row g-3 mb-4">
+  <div class="col-md-6">
+    <div class="card shadow-sm">
+      <div class="card-header fw-semibold"><i class="bi bi-camera-fill me-2"></i>Quick Actions</div>
+      <div class="card-body d-flex flex-wrap gap-2">
+        <a href="{{ url_for('attendance') }}" class="btn btn-primary">
+          <i class="bi bi-camera me-1"></i>Mark Attendance
+        </a>
+        <a href="{{ url_for('register_student') }}" class="btn btn-success">
+          <i class="bi bi-person-plus me-1"></i>Register Student
+        </a>
+        <a href="{{ url_for('manual_attendance') }}" class="btn btn-secondary">
+          <i class="bi bi-pencil-square me-1"></i>Manual Entry
+        </a>
+        <a href="{{ url_for('reports') }}" class="btn btn-warning">
+          <i class="bi bi-envelope me-1"></i>Send Report
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Recent attendance -->
+<div class="card shadow-sm">
+  <div class="card-header fw-semibold"><i class="bi bi-clock-history me-2"></i>Recent Attendance</div>
+  <div class="card-body p-0">
+    {% if recent_attendance %}
+    <div class="table-responsive">
+      <table class="table table-hover mb-0">
+        <thead class="table-light">
+          <tr>
+            <th>Student ID</th><th>Name</th><th>Class</th>
+            <th>Date</th><th>Time</th><th>Status</th><th>Marked by</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in recent_attendance %}
+          <tr>
+            <td>{{ row.student_id }}</td>
+            <td>{{ row.name }}</td>
+            <td>{{ row.class_name }}</td>
+            <td>{{ row.date }}</td>
+            <td>{{ row.time }}</td>
+            <td>
+              <span class="badge bg-{{ 'success' if row.status == 'present' else ('warning' if row.status == 'late' else 'danger') }}">
+                {{ row.status | capitalize }}
+              </span>
+            </td>
+            <td>
+              <span class="badge bg-{{ 'primary' if row.marked_by == 'face' else 'secondary' }}">
+                {{ row.marked_by | capitalize }}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <p class="text-muted p-3 mb-0">No attendance records yet.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
